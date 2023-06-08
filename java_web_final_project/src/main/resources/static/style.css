@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#dataDisplay {
+    border: 3px black;
+    max-width: 600px;
+}
+
+.Registery {
+    color: rebeccapurple;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+label {
+    margin: 8px;
+    font-weight: 700;
+    text-align: center;
+}
+
+input {
+    margin: 0 auto;
+    max-width: 250px;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'nunito';
+}
